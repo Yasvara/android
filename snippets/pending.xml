@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Repos that exist only in the local tree. Not included by default.xml;
+       move each entry into yasvara.xml once its repo is published.
+       Proprietary blobs need a private remote, not github.com/Yasvara. -->
+
+  <!-- Yasvara sources (not under git yet) -->
+  <project path="packages/apps/Laras" name="android_packages_apps_Laras" remote="yasvara" />
+  <project path="packages/apps/Rekam" name="android_packages_apps_Rekam" remote="yasvara" />
+  <project path="vendor/yasvara" name="android_vendor_yasvara" remote="yasvara" />
+
+  <!-- onyx -->
+  <project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="yasvara" />
+  <project path="device/xiaomi/onyx-miuicamera" name="android_device_xiaomi_onyx-miuicamera" remote="yasvara" />
+  <project path="kernel/xiaomi/sm8735" name="android_kernel_xiaomi_sm8735" remote="yasvara" revision="upstream-6.6.x" />
+  <project path="kernel/xiaomi/sm8735-devicetrees" name="android_kernel_xiaomi_sm8735-devicetrees" remote="yasvara" revision="oss-kernel" />
+  <project path="kernel/xiaomi/sm8735-modules" name="android_kernel_xiaomi_sm8735-modules" remote="yasvara" revision="pm-hygiene" />
+  <project path="vendor/xiaomi/onyx" name="proprietary_vendor_xiaomi_onyx" remote="yasvara" />
+  <project path="vendor/xiaomi/onyx-miuicamera" name="proprietary_vendor_xiaomi_onyx-miuicamera" remote="yasvara" />
+
+  <!-- grus -->
+  <project path="device/xiaomi/grus" name="android_device_xiaomi_grus" remote="yasvara" />
+  <project path="device/xiaomi/sdm710-common" name="android_device_xiaomi_sdm710-common" remote="yasvara" />
+  <project path="kernel/xiaomi/sdm710" name="android_kernel_xiaomi_sdm710" remote="yasvara" revision="lineage-24.0" />
+  <project path="vendor/xiaomi/grus" name="proprietary_vendor_xiaomi_grus" remote="yasvara" />
+  <project path="vendor/xiaomi/sdm710-common" name="proprietary_vendor_xiaomi_sdm710-common" remote="yasvara" />
+</manifest>
