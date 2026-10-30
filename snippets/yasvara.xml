@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yasvara" fetch="ssh://git@github.com/Yasvara/" revision="refs/heads/yasvara-17.0" />
+
+  <!-- Lineage-layer forks: stay on lineage-24.0 until M6 folds them into
+       vendor/yasvara. -->
+  <remove-project path="bootable/recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="yasvara" revision="lineage-24.0" groups="pdk" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="yasvara" revision="lineage-24.0" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="yasvara" revision="lineage-24.0" />
+
+  <!-- grus legacy-um HALs -->
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="yasvara" revision="lineage-24.0" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="yasvara" revision="lineage-24.0" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="yasvara" revision="lineage-24.0" />
+
+  <!-- Yasvara apps -->
+  <project path="packages/apps/Pentas" name="android_packages_apps_Pentas" remote="yasvara" revision="lineage-24.0" />
+</manifest>

@@ -4,4 +4,5 @@
        file. Every Yasvara change lives in snippets/. -->
   <include name="clo.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/yasvara.xml" />
 </manifest>
