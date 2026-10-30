@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- clo.xml is the CLO QSSI manifest, unmodified; bump it by replacing the
+       file. Every Yasvara change lives in snippets/. -->
+  <include name="clo.xml" />
+</manifest>
