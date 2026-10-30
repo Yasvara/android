@@ -3,4 +3,5 @@
   <!-- clo.xml is the CLO QSSI manifest, unmodified; bump it by replacing the
        file. Every Yasvara change lives in snippets/. -->
   <include name="clo.xml" />
+  <include name="snippets/lineage.xml" />
 </manifest>
