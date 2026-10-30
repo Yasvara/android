@@ -5,4 +5,5 @@
   <include name="clo.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/yasvara.xml" />
+  <include name="snippets/trim.xml" />
 </manifest>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Car, TV, cuttlefish and dev-board targets Yasvara never builds.
+       Included last so it also drops Lineage forks of these paths. -->
+  <remove-project path="device/amlogic/yukawa" />
+  <remove-project path="device/amlogic/yukawa-kernel" />
+  <remove-project path="device/generic/car" />
+  <remove-project path="device/google/atv" />
+  <remove-project path="device/google_car" />
+  <remove-project path="device/google/cuttlefish" />
+  <remove-project path="device/google/cuttlefish_prebuilts" />
+  <remove-project path="device/google/cuttlefish_vmm" />
+  <remove-project path="device/google/sdv" />
+  <remove-project path="device/google/sdv_display_safety" />
+  <remove-project path="device/google/trout" />
+  <remove-project path="device/linaro/dragonboard" />
+  <remove-project path="device/linaro/dragonboard-kernel" />
+  <remove-project path="packages/apps/Car/CalendarPrebuilt" />
+  <remove-project path="packages/apps/Car/Cluster" />
+  <remove-project path="packages/apps/Car/DataSubscriptionReference" />
+  <remove-project path="packages/apps/Car/DebuggingRestrictionController" />
+  <remove-project path="packages/apps/Car/DialerPrebuilt" />
+  <remove-project path="packages/apps/Car/DriverUIPrebuilt" />
+  <remove-project path="packages/apps/Car/LatinIME" />
+  <remove-project path="packages/apps/Car/Launcher" />
+  <remove-project path="packages/apps/Car/LinkViewer" />
+  <remove-project path="packages/apps/Car/LocalMediaPlayer" />
+  <remove-project path="packages/apps/Car/MediaPrebuilt" />
+  <remove-project path="packages/apps/Car/MessengerPrebuilt" />
+  <remove-project path="packages/apps/Car/Notification" />
+  <remove-project path="packages/apps/Car/Provision" />
+  <remove-project path="packages/apps/Car/RadioPrebuilt" />
+  <remove-project path="packages/apps/Car/References" />
+  <remove-project path="packages/apps/Car/RotaryController" />
+  <remove-project path="packages/apps/Car/RotaryImePrebuilt" />
+  <remove-project path="packages/apps/Car/Settings" />
+  <remove-project path="packages/apps/Car/SettingsIntelligence" />
+  <remove-project path="packages/apps/Car/systemlibs" />
+  <remove-project path="packages/apps/Car/SystemUI" />
+  <remove-project path="packages/apps/Car/SystemUpdater" />
+  <remove-project path="packages/apps/Car/Templates" />
+  <remove-project path="packages/apps/Car/TemplatesPrebuilt" />
+  <remove-project path="packages/apps/Car/VoiceControl" />
+  <remove-project path="packages/apps/TV" />
+  <remove-project path="packages/apps/TvFeedbackConsent" />
+  <remove-project path="packages/apps/TvSettings" />
+  <remove-project path="packages/apps/TvSystemUI" />
+  <remove-project path="packages/services/Car" />
+</manifest>
